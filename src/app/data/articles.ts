@@ -673,5 +673,5 @@ The education transformation isn't about technology replacing traditional school
             observer.observe(el);
         });
     </script>
-  },
+  }
 ];
