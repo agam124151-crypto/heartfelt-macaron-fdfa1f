@@ -1,6 +1,5 @@
 backend:
   name: git-gateway
-  repo: agam124151-crypto/heartfelt-macaron-fdfa1f
   branch: main
 
 media_folder: "public/images"
