@@ -1,0 +1,21 @@
+backend:
+  name: github
+  repo: agam124151-crypto/heartfelt-macaron-fdfa1f
+  branch: main
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "articles"
+    label: "Articles"
+    folder: "content/articles"
+    create: true
+    slug: "{{slug}}"
+
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Read Time", name: "readTime", widget: "string" }
+      - { label: "Content", name: "body", widget: "markdown" }
